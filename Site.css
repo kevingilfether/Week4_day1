@@ -21,6 +21,14 @@ p{
     color: blueviolet;
 }
 
+/*This is a group*/
 h1,h3,h6 {
     font-family:'Comic Sans MS';
+    text-align:right;
+}
+
+/*A hieracrchy affecting all list items inside of an ordered list */
+ol li {
+    font-size:15px;
+    font-family: 'Amatic SC', cursive;
 }

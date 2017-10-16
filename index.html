@@ -2,8 +2,21 @@
 <html>
 <head>
     <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter|Marck+Script" rel="stylesheet">
     <link href="Site.css" rel="stylesheet" />
 	<meta charset="utf-8" />
+    <!-- Internal stylesheets is considered least best practice, but has its places
+        Namely, it's more specific. -->
+    <style>
+        body{
+            background-color:gray;
+        }
+
+        img {
+            max-width: 100px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -25,13 +38,13 @@
        And a fourth.
     </p>
 
-    <a href="https://www.wecancodeit.org">Click here!</a>
+    <a style="background:pink;font-family:Wingdings" href="https://www.wecancodeit.org">Click here!</a>
     <!--"Click Here" is the innerhtml of the element-->
 
     <!--Lists!-->
 
-    <ol class="funkyFresh">
-        <li>This is the first item of a list.</li>
+    <ol>
+        <li class="funkyFresh">This is the first item of a list.</li>
         <li>This is the second item.</li>
         <li id="theThird">This is the third.</li>
     </ol>
